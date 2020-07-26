@@ -19,3 +19,13 @@ color: lightcyan;
  .btn:hover{
 cursor: pointer;   
  }
+
+ @media only screen and (max-width: 600px) {
+    .btn {
+        background-color: lightcoral;
+        position: absolute;
+        margin-left: 160px;
+        margin-top: 200px;
+        color: lightcyan;
+    }
+  }
